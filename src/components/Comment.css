@@ -1,0 +1,26 @@
+.comment-container {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	margin-top: 10px;
+}
+
+.comment-container .avatar {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+
+.comment {
+	margin-left: 10px;
+	padding: 15px;
+	background: #ddd;
+	flex: 1;
+	border-radius: 20px;
+}
+
+.comment p {
+	font-size: 16px;
+}

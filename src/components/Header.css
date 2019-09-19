@@ -1,0 +1,26 @@
+.header-container {
+	height: 64px;
+	width: 100%;
+	background: #395999;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 0 10px;
+	box-sizing: border-box;
+}
+
+.logo {
+	height: 64px;
+}
+
+.profile {
+	display: flex;
+	align-items: center;
+	color: #fff;
+	cursor: pointer;
+	margin: 10px 30px 10px 0;
+}
+
+.profile i {
+	margin: 5px;
+}
